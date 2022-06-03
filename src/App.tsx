@@ -1,4 +1,6 @@
+import UseContextComponent from "./component/UseContext/Level1";
 import UseEffectComponent from "./component/UseEffectComponent";
+import UseRefComponent from "./component/UseRefComponent";
 import UseStateComponent from "./component/UseStateComponent";
 
 function App() {
@@ -6,6 +8,10 @@ function App() {
         <div>
             <UseStateComponent />
             <UseEffectComponent />
+            <UseContextComponent />
+            <UseRefComponent />
+            {/* Callback */}
+            {/* UseMemo */}
         </div>
     );
 }
