@@ -22,7 +22,7 @@ const ReduxToolkitExample = () => {
     };
 
     return (
-        <div className='flex flex-col justify-center items-center'>
+        <div className='flex flex-col justify-center items-center '>
             <h1 className='text-center'> Redux Toolkit : </h1>
             <h1 className='text-center'>Counter : {count}</h1>
             <button
