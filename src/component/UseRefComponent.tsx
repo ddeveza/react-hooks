@@ -7,7 +7,9 @@ const UseRefComponent = () => {
         inputRef?.current?.focus();
     };
     return (
-        <div>
+        <div className='border-b-2 pb-2 border-gray-500'>
+            <h1 className='text-center'> UseRef : </h1>
+
             <input
                 type={"text"}
                 ref={inputRef}

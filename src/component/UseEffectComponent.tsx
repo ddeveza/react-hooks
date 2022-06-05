@@ -10,7 +10,14 @@ const UseEffectComponent = () => {
         };
     }, [time]);
 
-    return <div className='font-bold'>{time.toLocaleTimeString()}</div>;
+    return (
+        <div className='border-b-2 pb-2 border-gray-500'>
+            <h1 className='text-center'> UseEffect Hook : </h1>
+            <div className='font-bold text-center'>
+                {time.toLocaleTimeString()}
+            </div>
+        </div>
+    );
 };
 
 export default UseEffectComponent;

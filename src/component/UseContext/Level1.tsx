@@ -12,9 +12,12 @@ export const Level1 = () => {
     const [name, setName] = useState("Dennis");
     return (
         <NameContext.Provider value={{name, setName}}>
-            Level1 : {name}
-            <div>
-                <Level2 />
+            <div className='border-b-2 pb-2 border-gray-500'>
+                <h1 className='text-center'> UseContext : </h1>
+                Level1 : {name}
+                <div>
+                    <Level2 />
+                </div>
             </div>
         </NameContext.Provider>
     );
